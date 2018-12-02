@@ -1,12 +1,12 @@
 .container
 {
-	min-width: 750px;
+	min-width: 710px;
 	margin: 0px;
 	width: 100%;
 }
 #head
 {
-
+	min-width: 500px;
 	height: 23px;
 	border-top-style:solid; 
 	border-right-style:none; 
@@ -22,7 +22,6 @@
 {
 	font-weight: 1000;
 	text-decoration-line: none;
-	text-decoration-style: initial;
 	font-size: 13px;
 	padding-left: 4px;
 	padding-right: 4px;
@@ -44,7 +43,62 @@
 	width: 50px;
 	background-color: white;
 	padding:2px;
+	padding-right:1px;
+	padding-bottom:1px;
 	float: right;
 	margin-top:50px;
 	margin-right: 60px;
+	border-width:1px;
+	border-style:solid;
+	border-color: #CDCDCD;
+	vertical-align:text-top;
+}
+#info
+{
+	min-width: 100px;
+	float: right;
+	width: 400px;
+	height: 50px;
+	margin-top:43px;
+}
+#info p
+{
+	font-weight: 500;
+	font-size: 15px;
+	margin: 10px;
+	text-align: right;
+}
+.pipe
+{
+	margin:0 5px 0 0;
+}
+a.noline
+{
+	text-decoration-line: none;
+}
+#qu
+{
+	height: 100px;
+	border-radius:20px;
+	border-width:2px;
+	border-style:solid;
+	border-color: #DDDDDD;
+}
+.qutop
+{
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	width: 300px;
+	height: 100%;
+}
+.quright
+{
+	float: right;
+	padding: 0px 3px;
+	padding-right: 8px;
+	width: 116px;
+	height: 80px;
+	padding-top: 20px;
+	font-size: 18px;
 }
