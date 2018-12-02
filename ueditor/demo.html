@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html onmouseup="html_click()">
+<head>
+    <script type="text/javascript" charset="utf-8" src="ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="ueditor.all.min.js"> </script>
+</head>
+<body>
+<div>
+    <script id="editor" type="text/javascript" style="width:1024px;height:300px;" onmousedown="my()"></script>
+</div>
+<div>
+    <div>
+        <button onclick="alert(getContent())">获得内容</button>
+        <button onclick="setContent('OKOKOK', false)">写入内容</button>
+        <button onclick="setContent('OKOKOK', true)">追加内容</button>
+        <button onclick="getPlainTxt()">获得带格式的纯文本</button>
+        <button onclick="hasContent()">判断是否有内容</button>
+        <button onclick="setFocus()">使编辑器获得焦点</button>
+    </div>
+    <div>
+        <button onclick="insertHtml()">插入给定的内容</button>
+        <button onclick=" UE.getEditor('editor').setHeight(300)">设置高度为300默认关闭了自动长高</button>
+    </div>
+</div>
+<script type="text/javascript">
+    var ue = UE.getEditor('editor');//实例化UE
+    var moren = '[可以在这里写上你给我们的建议]';
+    
+    ue.ready(function() {ue.setContent(moren);});//刚创建的让他显示字符
+    ue.addListener('focus',function( ueditor ){
+         if(getContent() == '<p>'+moren+'</p>')
+         {
+            setContent("", false);
+         }
+    });
+    //↑↑如果编辑框被单击时只有默认内容 则把内容清空 让用户输入
+    function html_click() 
+    {
+        if(getContent() == '')
+        {
+            setContent(moren, false);
+        }
+    }//在网页上单击时 如果编辑框没内容 则显示默认内容
+    
+    
+
+//-------------------------初始化完成----------------------------
+
+
+    function insertHtml(value) {
+        ue.execCommand('insertHtml', value)
+    }//插入html语句到编辑框
+    function getContent() {
+        return ue.getContent();
+    }//得到有标签的文本
+    function getPlainTxt() {
+        return ue.getPlainTxt();
+    }//得到有段落的文本
+    function setContent(text, isAppendTo) {
+        ue.setContent(text, isAppendTo);
+    }//设置文本框的内容
+    function hasContent() {
+        return ue.hasContents();
+    }//是不是有内容
+    function setFocus() {
+        ue.focus(true);
+    }//设置焦点  true表示总是最后
+ 
+</script>
+
+</body>
+</html>
