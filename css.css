@@ -4,6 +4,10 @@
 	margin: 0px;
 	width: 100%;
 }
+a
+{
+	color: #0C5394;
+}
 #head
 {
 	min-width: 500px;
@@ -78,6 +82,7 @@ a.noline
 }
 #qu
 {
+	min-width: 1000px;
 	height: 100px;
 	border-radius:20px;
 	border-width:2px;
@@ -86,19 +91,111 @@ a.noline
 }
 .qutop
 {
-	float: left;
 	margin-left: 40px;
 	margin-bottom: 20px;
-	width: 300px;
+	width: 280px;
 	height: 100%;
+}
+.quleft
+{
+	float: right;
+	padding: 0px 3px;
+	padding-right: 4px;
+	width: 90px;/*很多都改了*/
+	height: 80px;
+	padding-top: 20px;
+	font-size: 17px;
 }
 .quright
 {
 	float: right;
 	padding: 0px 3px;
-	padding-right: 8px;
-	width: 116px;
+	padding-right: 4px;
+	width: 130px;/*很多都改了*/
 	height: 80px;
-	padding-top: 20px;
-	font-size: 18px;
+	padding-top: 30px;
+	font-size: 19px;
+}
+#tuisong
+{
+	min-width: 500px;
+	margin-top:10px;
+	height: 210px;
+	border:1px solid black;
+
+}
+#gundong
+{
+	padding-right: 50%;
+	padding-left: 15px;
+	height: 20px;
+}
+#paihang
+{
+	margin-top:10px;
+	padding-left: 0px;
+	padding-right: 10px;
+}
+.paihanglie
+{
+
+	float: left;
+	margin-left: 4%;
+	width: 20%;
+	height: 100%;
+	border:2px solid #cdcdcd;
+}
+.list
+{
+	padding-left: 25px;
+	padding-top: 5px;
+	background-image: url(img/index/list.png);
+	background-repeat:no-repeat;
+	height: 135px;
+	overflow: hidden;
+	white-space:nowrap;/*不换行显示*/
+}
+p.noma
+{
+	border:0px solid #cdcdcd;
+	border-bottom-width: 1px;
+	padding-top:4px;
+	margin:0px;
+	font-size: 13px;
+}
+a.black
+{
+	color: black;
+}
+.zhuti
+{
+	text-align: center;
+	font-weight: 500;
+	color: red;
+	background-color: #F2F2F2;
+	height: 25px;
+}
+#kuai
+{
+	margin-top:10px;
+	border:2px solid black;
+	padding-right: 1px;
+}
+.kuaitop
+{
+	height: 25px;
+	background-color: #F2F2F2;
+}
+.zikuai
+{
+	height: 100px;
+	background-image: url(img/index/forum_new.gif);
+	background-repeat: no-repeat;
+	margin-top:15px;
+	margin-left:35px;
+	padding-left: 47px;
+}
+.noma2
+{
+	margin:0px;
 }
