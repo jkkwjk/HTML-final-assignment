@@ -28,3 +28,8 @@ function qqlogin(){
 	}
 	
 };
+function getTime(){
+	var time = new Date();
+	var id = document.getElementById("timeee");
+	id.innerHTML = time.toLocaleString( );;
+};

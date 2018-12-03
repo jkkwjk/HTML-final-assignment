@@ -1,0 +1,115 @@
+#tuisong
+{
+	min-width: 500px;
+	margin-top:10px;
+	height: 210px;
+	border:1px solid black;
+
+}
+#gundong
+{
+	padding-right: 50%;
+	padding-left: 15px;
+	height: 20px;
+}
+#paihang
+{
+	margin-top:10px;
+	padding-left: 0px;
+	padding-right: 10px;
+}
+.paihanglie
+{
+
+	float: left;
+	margin-left: 4%;
+	width: 20%;
+	height: 100%;
+	border:2px solid #cdcdcd;
+}
+.list
+{
+	padding-left: 25px;
+	padding-top: 5px;
+	background-image: url(img/index/list.png);
+	background-repeat:no-repeat;
+	height: 135px;
+	overflow: hidden;
+	white-space:nowrap;/*不换行显示*/
+}
+p.noma
+{
+	border:0px solid #cdcdcd;
+	border-bottom-width: 1px;
+	padding-top:4px;
+	margin:0px;
+	font-size: 13px;
+}
+a.black
+{
+	color: black;
+}
+.zhuti
+{
+	text-align: center;
+	font-weight: 500;
+	color: red;
+	background-color: #F2F2F2;
+	height: 25px;
+}
+#kuai
+{
+	min-width: 600px;
+	margin-top:10px;
+	border:2px solid black;
+	padding-right: 1px;
+}
+.kuaitop
+{
+	height: 25px;
+	background-color: #F2F2F2;
+}
+.zikuai
+{
+	height: 70px;
+	background-image: url(img/index/forum_new.gif);
+	background-repeat: no-repeat;
+	margin-top:15px;
+	margin-left:35px;
+	padding-left: 47px;
+}
+.noma2
+{
+	margin:3px;
+}
+#zaixiantongji
+{
+	margin-top: 5px;
+	height: 20px;
+	background-color: #DDDDDD;
+	border:1px solid #eeeeee;
+	padding-left: 10px;
+	font-size: 13px;
+}
+#mianze
+{
+	min-width: 1000px;
+	margin-top: 5px;
+	color: red;
+	font-size: 12px;
+	height: 60px;
+}
+#line
+{
+	height: 4px;
+	background-image: url(img/head/line.png);
+	background-size: 100%;
+	background-repeat:no-repeat;
+}
+.design
+{
+	min-width: 1000px;
+	height: 30px;
+	margin-bottom: 15px;
+
+}
