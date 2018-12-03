@@ -1,4 +1,4 @@
-#tuisong
+﻿#tuisong
 {
 	min-width: 500px;
 	margin-top:10px;
@@ -31,7 +31,7 @@
 {
 	padding-left: 25px;
 	padding-top: 5px;
-	background-image: url(img/index/list.png);
+	background-image: url(../img/index/list.png);
 	background-repeat:no-repeat;
 	height: 135px;
 	overflow: hidden;
@@ -72,44 +72,9 @@ a.black
 .zikuai
 {
 	height: 70px;
-	background-image: url(img/index/forum_new.gif);
+	background-image: url(../img/index/forum_new.gif);
 	background-repeat: no-repeat;
 	margin-top:15px;
 	margin-left:35px;
 	padding-left: 47px;
-}
-.noma2
-{
-	margin:3px;
-}
-#zaixiantongji
-{
-	margin-top: 5px;
-	height: 20px;
-	background-color: #DDDDDD;
-	border:1px solid #eeeeee;
-	padding-left: 10px;
-	font-size: 13px;
-}
-#mianze
-{
-	min-width: 1000px;
-	margin-top: 5px;
-	color: red;
-	font-size: 12px;
-	height: 60px;
-}
-#line
-{
-	height: 4px;
-	background-image: url(img/head/line.png);
-	background-size: 100%;
-	background-repeat:no-repeat;
-}
-.design
-{
-	min-width: 1000px;
-	height: 30px;
-	margin-bottom: 15px;
-
 }
