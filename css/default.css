@@ -138,9 +138,9 @@ a.noline
 	font-size: 12px;
 	height: 60px;
 }
-#line
+.line
 {
-	height: 2px;
+	height: 2.5px;
 	background-image: url(../img/head/line.png);
 	background-size: 100%;
 	background-repeat:no-repeat;

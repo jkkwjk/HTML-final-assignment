@@ -33,12 +33,59 @@
 }
 #zhuti
 {
+	min-width: 950px;
 	margin-top: 5px;
 	width: 100%;
 	border: 1px solid #dfdfdf;
-	height: 100px;
+	padding:1px;
 }
 .pad
 {
-
+	border:2px solid #dddddd;
+	background-color:#f2f2f2;
+	padding:2px;
+}
+.first
+{
+	margin-left: 20px;
+}
+.second
+{
+	margin-right: 190px;
+}
+.third
+{
+	margin-right: 15px;
+}
+.fourth
+{
+	margin-right: 22px;
+}
+.tiezineirong
+{
+	height: 30px;
+	line-height: 30px;
+	padding-left: 20px;
+}
+.biaoti
+{
+	margin-left: 5px;
+}
+.hiddenout
+{
+	white-space:nowrap;
+	overflow: hidden;
+}
+a.noline2
+{
+	text-decoration-line: none;
+	color: black;
+}
+.yonghuming
+{
+	font-size: 14px;
+}
+.sizeofck
+{
+	font-size: 14px;
 }

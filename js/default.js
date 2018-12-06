@@ -1,12 +1,12 @@
-var name='yuyan123';
+var name='kzow1';
 function outlogin(){
 	if(name == '')
 	{
 		alert('登录成功!!!');
-		document.getElementById('username').text='yuyan123';
+		document.getElementById('username').text='kzow1';
 		document.getElementById('login').text='退出';
 		document.getElementById('yonghuzu').innerHTML='用户组:新人上路&nbsp;&nbsp;&nbsp;&nbsp;';
-		name = 'yuyan123';
+		name = 'kzow1';
 	}
 	else
 	{
@@ -18,7 +18,7 @@ function outlogin(){
 	}
 };
 function qqlogin(){
-	if(name == 'yuyan123')
+	if(name == 'kzow1')
 	{
 		alert('没有接口╮(╯▽╰)╭');
 	}
@@ -33,3 +33,20 @@ function getTime(){
 	var id = document.getElementById("timeee");
 	id.innerHTML = time.toLocaleString( );;
 };
+function mousein(id){
+	var a=document.getElementById(id);
+	a.style.backgroundColor="#f2f2f2";
+}
+function mouseout(id){
+	var a=document.getElementById(id);
+	a.style.backgroundColor="white";
+	
+}
+function amousein(id){
+	var a=document.getElementById(id);
+	a.style.textDecoration="underline";
+}
+function amouseout(id){
+	var a=document.getElementById(id);
+	a.style.textDecoration="none";
+}
