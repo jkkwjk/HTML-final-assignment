@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html class="container">
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="../../css/default.css">
-	<link rel="stylesheet" type="text/css" href="../../css/bankuai.css">
+	<link rel="stylesheet" type="text/css" href="../../css/user.css">
 	<script type="text/javascript" charset="utf-8" src="../../js/default.js"></script>
 	<title>编程交流论坛 -- 人人都能学编程</title>
 	
 </head>
 <body class="container" style="background: url(../../img/head/bgimg.jpg) no-repeat 50% 0;" onload="getTime();">
 	<div id="head" >
-		<a href="https://weibo.com" target="_blank" title="新浪微博" style="color: black">官方微博</a>
-		<a href="https://www.icourse163.org/" target="_blank" style="color: red">编程视频教程</a>
+		<a href="https://weibo.com" target="_blank" title="新浪微博" style="color: black" id="head_a" onmouseover="amousein(id);"onmouseout="amouseout(id);">官方微博</a>
+		<a href="https://www.icourse163.org/" target="_blank" style="color: red" id="head_b" onmouseover="amousein(id);"onmouseout="amouseout(id);">编程视频教程</a>
 		<div style="float: right;">
-			<a href="{}" target="_blank" style="color: blue">向我们提问</a>
-			<a href="{}" target="_blank" style="color: blue">给我们建议</a>
+			<a href="{}" target="_blank" style="color: blue" id="head_c" onmouseover="amousein(id);"onmouseout="amouseout(id);">向我们提问</a>
+			<a href="{}" target="_blank" style="color: blue" id="head_d" onmouseover="amousein(id);"onmouseout="amouseout(id);">给我们建议</a>
 		</div>
 	</div>
 	<div id="mainbody">
@@ -22,21 +23,21 @@
 				<a href="./index.html"><img src="../../img/head/logo.png" width="130px"></a>
 			</div>
 			<div id="imginfo">
-				<img src="../../img/head/people.gif">
+				<a class="noline" href="" target="_blank" onclick="my();return false;"><img src="../../img/head/people.gif"></a>
 			</div>
 			<div id="info">
 				<p>
 					<img src="../../img/head/user_online.gif">
-					<a class="noline" id="username" href="{}">kzow1</a> 
+					<a class="noline" id="username" href="" target="_blank" onmouseover="amousein(id);"onmouseout="amouseout(id);" onclick="my();return false;">kzow1</a> 
 					<span class="pipe">|</span>
 					<a href="" onclick="qqlogin();return false;"><img src="../../img/head/qq.gif" style="vertical-align:text-top;"></a>
 					<!-- 图片上下居中 -->
 					<span class="pipe">|</span>
-					<a class="noline" href="{}">我的</a> 
+					<a class="noline" href="{}"target="_blank" id="head_e" onmouseover="amousein(id);"onmouseout="amouseout(id);" onclick="my();return false;">我的</a> 
 					<span class="pipe">|</span>
-					<a class="noline" href="{}">提醒</a> 
+					<a class="noline" href="{}"target="_blank" id="head_f" onmouseover="amousein(id);"onmouseout="amouseout(id);" onclick="my();return false;">提醒</a> 
 					<span class="pipe">|</span>
-					<a class="noline" id="login" href="{}" onclick="outlogin();return false;">退出</a> 
+					<a class="noline" id="login" href="{}" onclick="outlogin();return false;"onmouseover="amousein(id);"onmouseout="amouseout(id);">退出</a> 
 					<span class="pipe">|</span>
 				</p>
 
@@ -50,23 +51,23 @@
 			<div class="qutop" style=" float: left;width: 250px;">
 				<img src="../../img/head/ico02.png" style="margin-top:20px;">
 				<div class="quleft">
-					<p style="margin-top:5px;margin-bottom:8px;"><a href="{}">原创发布区</a></p>
-					<a href="{}">精品软件区</a>
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="../forum/yuanchuang.html">原创发布区</a></p>
+					<a href="../forum/ruanjian.html">精品软件区</a>
 				</div>
 				<div class="quleft">
-					<p style="margin-top:5px;margin-bottom:8px;"><a href="{}">灌水交流区</a></p>
-					<a href="{}">视频资源区</a>
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="../forum/guanshui.html">灌水交流区</a></p>
+					<a href="../forum/jiaocheng.html">教程分享区</a>
 				</div>
 			</div>
 			<div class="qutop" style="margin-left: 10px; float: left;">
 				<img src="../../img/head/ico03.png" style="margin-top:20px;">
 				<div class="quleft"  style="width: 100px;">
-					<p style="margin-top:5px;margin-bottom:8px;"><a href="{}">C语言交流区</a></p>
-					<a href="{}">JAVA交流区</a>
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="../forum/c.html">C语言交流区</a></p>
+					<a href="../forum/java.html">JAVA交流区</a>
 				</div>
 				<div class="quleft" style="width: 116px;">
-					<p style="margin-top:5px;margin-bottom:8px;"><a href="{}">C++交流区</a></p>
-					<a href="{}">Python交流区</a>
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="../forum/c++.html">C++交流区</a></p>
+					<a href="../forum/py.html">Python交流区</a>
 				</div>
 			</div>
 			<div class="qutop" style=" float: right;width: 190px; margin-left: 0px;">
@@ -82,7 +83,21 @@
 				</div>
 			</div>
 		</div>
-		
+		<div id="contain">
+			<div id="padhead">
+				<div id="imginfo2">
+					<a class="noline" href=""><img src="../../img/head/people.gif"></a>
+				</div>
+				<div style="float: left; margin-top: 35px; margin-left: 25px;">
+					<a id="uname" href="" class="noline" onmouseover="amousein(id);"onmouseout="amouseout(id);"><span style="font-size: 17px;">xuanice</span></a>
+					<br>
+					<span style="font-size: 14px;">uid(12342324)</span>
+				</div>
+				<div id="xunzhang">
+					<img src="../../img/thread/cf.gif">
+				</div>
+			</div>
+		</div>
 
 
 		<div id="zaixiantongji">

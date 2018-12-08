@@ -1,0 +1,39 @@
+#contain
+{
+	margin-top: 10px;
+	height: 200px;
+	border:2px solid #dddddd;
+	padding: 1px;
+}
+#padhead
+{
+	background-color: #e5edf2;
+	height: 100px;
+}
+#imginfo2
+{
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	padding:3px;
+	padding-right:1px;
+	padding-bottom:1px;
+	float: left;
+	margin-top:23px;
+	margin-left: 38px;
+	border-width:1px;
+	border-style:solid;
+	border-color: #CDCDCD;
+	vertical-align:text-top;
+}
+#usrname
+{
+	margin-top: 30px;
+	margin-left: 10px;
+}
+#xunzhang
+{
+	float: right;
+	margin-top: 35px;
+	margin-right: 40px;
+}

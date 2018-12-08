@@ -17,6 +17,16 @@ function outlogin(){
 		name = '';
 	}
 };
+function my(){
+	if(name == 'kzow1')
+	{
+		window.open("../../index.html");
+	}
+	else
+	{
+		alert('你还没有登录哩');
+	}
+}
 function qqlogin(){
 	if(name == 'kzow1')
 	{
