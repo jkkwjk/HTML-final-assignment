@@ -17,10 +17,12 @@ function outlogin(){
 		name = '';
 	}
 };
-function my(){
+function my(wangzhi){
+	if(typeof(wangzhi)=="undefined")
+		wangzhi="../user/1021490/user.html"
 	if(name == 'kzow1')
 	{
-		window.open("../../index.html");
+		window.open(wangzhi);
 	}
 	else
 	{

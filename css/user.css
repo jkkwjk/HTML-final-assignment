@@ -1,14 +1,15 @@
 #contain
 {
+	min-width: 1117px;
 	margin-top: 10px;
-	height: 200px;
+	height: 430px;
 	border:2px solid #dddddd;
 	padding: 1px;
 }
 #padhead
 {
 	background-color: #e5edf2;
-	height: 100px;
+	height: 70px;
 }
 #imginfo2
 {
@@ -19,7 +20,7 @@
 	padding-right:1px;
 	padding-bottom:1px;
 	float: left;
-	margin-top:23px;
+	margin-top:7px;
 	margin-left: 38px;
 	border-width:1px;
 	border-style:solid;
@@ -34,6 +35,25 @@
 #xunzhang
 {
 	float: right;
-	margin-top: 35px;
+	margin-top: 16px;
 	margin-right: 40px;
+}
+#padbot
+{
+	padding: 4px;
+	height: 200px;
+}
+#pad2
+{
+	margin-top: 10px;
+}
+.timeinfo
+{
+	margin-top: 5px;
+	float: left;
+}
+.allinfo
+{
+	float: left;
+	margin-left: 22%;
 }

@@ -1,0 +1,90 @@
+.con
+{
+	margin-top: 5px;
+	padding:15px;
+	min-width: 750px;
+}
+.con2
+{
+	border:2px solid #efefef;
+	padding:1px;
+}
+.conhead
+{
+	height: 30px;
+	border-bottom: 2px solid #c2d5e3; 
+}
+.headl
+{
+	background-color: #e5edf2;
+	float: left;
+	width: 187px;
+	height: 30px;
+}
+.headr
+{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+.userinfo2
+{
+	background-color: #e5edf2;
+	width: 187px;
+	float: left;
+	border-bottom: 1px dashed #9fc5f8;
+}
+.conuser
+{
+	height: 30px;
+	line-height: 30px;
+}
+.username2
+{
+	font-size: 15px;
+	margin-left: 32%;
+}
+.threadinfo
+{
+	float: left;
+	overflow: hidden;
+}
+#imginfo2
+{
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	padding:2px;
+	padding-right:1px;
+	padding-bottom:1px;
+	margin-top:8px;
+	margin-left: 45px;
+	border-width:1px;
+	border-style:solid;
+	border-color: #CDCDCD;
+	vertical-align:text-top;
+}
+.maininfol
+{
+	height: 100%;
+	float: left;
+	width: 187px;
+	background-color: #e5edf2;
+}
+.maininfor
+{
+	height: 100%;
+}
+p.fontresize
+{
+	font-size: 13px;
+	font-weight: 600;
+}
+pre {
+white-space: pre-wrap;
+word-wrap: break-word;
+}
+.btn
+{
+	float: right;
+}
