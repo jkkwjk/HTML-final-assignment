@@ -2,7 +2,7 @@
 {
 	margin-top: 5px;
 	padding:15px;
-	min-width: 750px;
+	min-width: 700px;
 }
 .con2
 {
@@ -73,6 +73,7 @@
 }
 .maininfor
 {
+	overflow: hidden;
 	height: 100%;
 }
 p.fontresize
@@ -80,11 +81,19 @@ p.fontresize
 	font-size: 13px;
 	font-weight: 600;
 }
-pre {
-white-space: pre-wrap;
-word-wrap: break-word;
+pre 
+{
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	font-size: 17px;
+	margin:0px;
+	margin-left: 20px;
+	margin-bottom: 100px;
+	margin-top: 10px;
 }
 .btn
 {
-	float: right;
+	position: absolute;
+	bottom: 15px;
+	right: 35px;
 }

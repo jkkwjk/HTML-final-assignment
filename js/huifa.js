@@ -23,5 +23,6 @@ function huifa(url,text)
 function load()
 {
 	var text=document.cookie;
+	if (text=='') {text='获取cookies失败!';}
 	document.getElementById('ttext').innerHTML = text;
 }

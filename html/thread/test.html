@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html class="container">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../../css/default.css">
+	<link rel="stylesheet" type="text/css" href="../../css/thread.css">
+	<script type="text/javascript" charset="utf-8" src="../../js/default.js"></script>
+	<title>编程交流论坛 -- 人人都能学编程</title>
+	
+</head>
+<body class="container" style="background: url(../../img/head/bgimg.jpg) no-repeat 50% 0;" onload="getTime();">
+	<div id="head" >
+		<a href="https://weibo.com" target="_blank" title="新浪微博" style="color: black" id="head_a" onmouseover="amousein(id);"onmouseout="amouseout(id);">官方微博</a>
+		<a href="https://www.icourse163.org/" target="_blank" style="color: red" id="head_b" onmouseover="amousein(id);"onmouseout="amouseout(id);">编程视频教程</a>
+		<div style="float: right;">
+			<a href="../tousu/q.html" target="_blank" style="color: blue" id="head_c" onmouseover="amousein(id);"onmouseout="amouseout(id);">向我们提问</a>
+			<a href="../tousu/advise.html" target="_blank" style="color: blue" id="head_d" onmouseover="amousein(id);"onmouseout="amouseout(id);">给我们建议</a>
+		</div>
+	</div>
+	<div id="mainbody">
+		<div style="height: 120px;min-width: 1000px;">
+			<div id="logo">
+				<a href="../../index.html"><img src="../../img/head/logo.png" width="130px"></a>
+			</div>
+			<div id="imginfo">
+				<a class="noline" href="" target="_blank" onclick="my();return false;"><img src="../../img/head/people.gif"></a>
+			</div>
+			<div id="info">
+				<p>
+					<img src="../../img/head/user_online.gif">
+					<a class="noline" id="username" href="" target="_blank" onmouseover="amousein(id);"onmouseout="amouseout(id);" onclick="my();return false;">kzow1</a> 
+					<span class="pipe">|</span>
+					<a href="" onclick="qqlogin();return false;"><img src="../../img/head/qq.gif" style="vertical-align:text-top;"></a>
+					<!-- 图片上下居中 -->
+					<span class="pipe">|</span>
+					<a class="noline" href="{}"target="_blank" id="head_e" onmouseover="amousein(id);"onmouseout="amouseout(id);" onclick="my();return false;">我的</a> 
+					<span class="pipe">|</span>
+					<a class="noline" href="{}"target="_blank" id="head_f" onmouseover="amousein(id);"onmouseout="amouseout(id);" onclick="my();return false;">提醒</a> 
+					<span class="pipe">|</span>
+					<a class="noline" id="login" href="{}" onclick="outlogin();return false;"onmouseover="amousein(id);"onmouseout="amouseout(id);">退出</a> 
+					<span class="pipe">|</span>
+				</p>
+
+				<p id="yonghuzu">
+					用户组:新人上路&nbsp;&nbsp;&nbsp;&nbsp;
+				</p>
+			</div>
+			
+		</div>
+		<div id="qu" >
+			<div class="qutop" style=" float: left;width: 250px;">
+				<img src="../../img/head/ico02.png" style="margin-top:20px;">
+				<div class="quleft">
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="../forum/yuanchuang.html">原创发布区</a></p>
+					<a href="../forum/ruanjian.html">精品软件区</a>
+				</div>
+				<div class="quleft">
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="../forum/guanshui.html">灌水交流区</a></p>
+					<a href="../forum/jiaocheng.html">教程分享区</a>
+				</div>
+			</div>
+			<div class="qutop" style="margin-left: 10px; float: left;">
+				<img src="../../img/head/ico03.png" style="margin-top:20px;">
+				<div class="quleft"  style="width: 100px;">
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="../forum/c.html">C语言交流区</a></p>
+					<a href="../forum/java.html">JAVA交流区</a>
+				</div>
+				<div class="quleft" style="width: 116px;">
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="../forum/c++.html">C++交流区</a></p>
+					<a href="../forum/py.html">Python交流区</a>
+				</div>
+			</div>
+			<div class="qutop" style=" float: right;width: 190px; margin-left: 0px;">
+				<img src="../../img/head/ico04.png" style="margin-top:20px;">
+				<div class="quright">
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="bangzhu.html" target="_blank">论坛使用帮助</a></p>
+				</div>
+			</div>
+			<div class="qutop" style=" float: right;width: 160px;">
+				<img src="../../img/head/ico01.png" style="margin-top:20px;">
+				<div class="quright" style="width: 100px;">
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="">站内公告</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="con">
+			<div class="con2">
+				<div class="conhead">
+					<div class="headl">
+						<span style="color: #999999;font-size: 13px;margin-left: 20%;">回复:</span>
+						<span style="color: #e06666;font-size: 13px;">34</span>
+						<span style="color: #999999;font-size: 13px;margin-left: 5%;">查看:</span>
+						<span style="color: #e06666;font-size: 13px;">1342</span>
+					</div>
+					<div style="background-color: white;width: calc(100% - 187px);height: 30px;float: left;">
+						<div class="headr">
+							<a class="noline" href="" id="a_title" onmouseover="amousein(id);" onmouseout="amouseout(id);"style="color: red;margin-left:50px;font-weight: 600;"><span>论坛公告【20181221_New】一定要看!!!!</span></a>
+						</div>
+						<span style="float: right;color: red;font-size: 13px;margin-right: 90px;line-height: 30px;">楼主</span>
+					</div>
+				</div>
+				<div class="conuser">
+					<div class="userinfo2">
+						<span class="username2"><a class="noline" style="color: red;" id="name" onmouseover="amousein(id);" onmouseout="amouseout(id);" href="../user/1000000/user.html">admin</a></span>
+						<img src="../../img/forum/common_2_verify_icon.gif">
+					</div>
+					<div style="width:calc(100% - 197px);height: 30px;border-bottom: 1px dashed #9fc5f8;margin-right: 10px; float: left;">
+						<div class="threadinfo">
+							<div style="margin-left: 20px;">
+								<img src="../../img/thread/online_member.gif">
+								<span style="margin-left: 5px;font-size: 13px;">发表于:  2018-12-20 15:35:48</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div style="margin-top: 1.4px;"></div><!-- 莫名的bug -->
+				<div style="overflow:hidden;">
+					<div class="maininfol">
+						<div id="imginfo2">
+							<a class="noline"target="_blank"><img src="../../img/head/people.gif" width="100px"></a>
+						</div>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 10px;color: red;">管理员</p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 5px;">UID<span style="float: right;margin-right: 40px;color: red;">1000000</span></p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 10px;color: red;">威望<span style="float: right;margin-right: 40px;color: black">42点</span></p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 10px;">热心<span style="float: right;margin-right: 40px;">463点</span></p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 10px;color: #999999;">违规<span style="float: right;margin-right: 40px;color: black;">0次</span></p>
+						<div style="margin-left: 40px;margin-top: 20px;">
+							<img src="../../img/thread/7.gif" style="margin-left: 5px;">
+							<img src="../../img/thread/bkqs.gif" style="margin-left: 5px;">
+							<img src="../../img/thread/cf.gif" style="margin-left: 5px;">
+						</div>
+					</div>
+					<div class="maininfor" style="position:relative;">
+<pre style="font-size: 17px;margin:0px;margin-bottom: 60px;">
+
+
+		<span style="color: red;font-size: 20px;">第一章  总规则</span>
+	第1条    站方的所有使用者与管理者的所有行为必须遵守本规则，其他管理规定不得与本规则相抵触。
+
+
+		<span style="color: red;font-size: 20px;">第二章  行为准则</span>
+	第1条   凡注册使用本社区的会员则代表了解并自愿遵守免责申明（附1）内所包涵的所有规定及条列
+	第2条   论坛会员应遵守中华人民共和国的法律法规。
+	第3条   禁止政治、敏感的文章发表以及转帖。
+	第4条   禁止不顾他人感受的个人情感发泄、人身攻击、低级趣味或者捏造事实诽谤他人。
+	第5条   禁止张贴、人肉搜集未经他人许可的任何私人信息。
+	第6条   禁止抄袭及剽窃他人作品，禁止转载或引用涉及版权问题的文章。
+	第7条   禁止发表与站方宗旨无关主题、与主题无关回复、上传与内容无关图片。
+	第8条   禁止一帖(回复)多发、刷版（帖）等恶意灌水现象；
+	第9条   禁止任何未经站方允许的广告。
+	第10条 禁止破坏论坛公共秩序及侵害站方利益的内容。
+	第11条 禁止任何组织或个人在论坛从事任何商业交易，禁止使用论坛相关名义进行任何形式的商业交易，论坛禁止发布非法交易行骗行为内容，
+		论坛没有任何公开的官方QQ群！
+	第12条 禁止请求破解、请求脱壳、破解方面的帖子。 
+	第13条 禁止讨论其他论坛、网站的邀请、注册、登陆以及其他是非问题，禁止发布其他网站或者论坛的邀请码如115、pptv等！
+	第14条 会员的头像/照片不得有国家领导人的形象；不得有歪曲/侮辱他人行为；禁止使用不雅头像/照片；
+	第15条 禁止挑战站方规定干涉站方管理，挑拨会员及管理关系，拉帮结伙、意图分裂。
+	第16条 禁止指桑骂槐、意图不明的行为。
+	第17条 禁止发布与法律法规打擦边球的内容。
+
+
+		<span style="color: red;font-size: 20px;">第三章  注册、管理账号规则</span>
+	凡注册的账号自动视为同意注册的账号归论坛所有
+	包含以下内容的注册名将被无条件删除：
+	第1条  党和国家领导人或其他名人的真实姓名、字、号、艺名、笔名，国家机构或其他机构、和政治、宗教有关之敏感的名称
+	第2条  不文明、不健康、易产生歧义、引起他人误解的名称
+	第3条  非官方途径购买的账号，论坛账号和邀请码禁止贩卖
+	第4条  不论出于何种目的原因，论坛账号均不得转赠或外借他人使用，每人只能拥有一个论坛账号，禁止注册马甲账号，即使账号被禁言也禁止再次注册，
+		违规者一律做封号处理！
+
+
+		<span style="color: red;font-size: 20px;">第四章  发贴规则 </span>
+	站方原则上接纳一切能够真正给大家带来经验的交流帖，任何精品、破解软件、心得体验……都可以成为帖子的主题。
+	具有以下规则性质的主题或回复将被管理人员处理，并对发贴者进行置顶奖励、禁言、禁止访问、删除ID、扣除CB等相应处理。
+	第1条  禁止发布论坛官方认定不宜在本社区发表的帖子
+	第2条  禁止以任何名义开帖召集、建立团体或者群的，如：“召集中关村地区的”，“东北人的请进”，
+	第3条  批评性内容或评语必须给出详细理由，否则将视为诽谤
+	第4条  禁止发布暴力、恐怖、血腥、反复贴过很多次、引起人视觉反感的图片
+	第5条  禁止发布违反国家和谐的内容，如各种翻墙软件、翻墙方法、VPN和免流等
+	第6条  禁止发布主题过于简单、无实质内容、使用哗众取宠标题的  
+	第7条  禁止自己开贴或在他人发表的主题中进行版聊，针对某一事件、问题反复开贴
+	第8条  禁止与主题明显不符的回复、仅使用表情、数字、字母、引用等无意义的回复
+	第9条  禁止发布含有病毒链接或恶意代码的帖子
+	第10条 禁止发布广告贴(标准见附2)
+	第11条 鼓励会员多发布原创帖
+	          1) 对于原创贴将予以加分鼓励，可在三日内本版置顶，显示高亮。
+	          2) 对于伪原创将作出取消在原创区发帖资格以及更严厉的处分。
+	第12条 任何讨论、建议、质疑、询问发表在提问区
+	第13条 任何投诉社区管理的主题而必须发表在建议区
+	第14条 禁止发布不符合相关版面版规的帖子
+	第15条 禁止发布求师父帖子
+	第16条 禁止出售交易论坛账号和论坛附件等资源
+	第17条 禁止将他人出售中的、加权限限制的、回帖可见的内容或者附件直接共享出来，损坏作者利益的行为
+	第18条 禁止非原创作品使用“隐藏回复”功能和“出售附件”等功能
+	第19条 禁止使用图片“隐藏回复”“管理加分”等伪装显示和刮刮卡等
+	第20条 允许刷屏,但内容要有意义,不可脱离主题帖(灌水帖除外)
+	第21条 允许同一主题多次回复可以连楼(三次以内)，但要符合主题(灌水帖除外)
+	第22条 禁止在标题以及内容添加误导性词汇 例如 精华、精品等
+	第23条 禁止诱导会员或强制要求会员加分等不正当方式来获取积分
+	第24条 禁止发布符合灌水规则的主题和回复(点我查看灌水定义)
+	第25条 禁止发布非必须管理阅读的高权限(只能管理阅读)主题
+	第26条 禁止发布封装的操作系统镜像、PE系统和U盘装系统类软件
+	第27条 禁止发布所有手机短信轰炸、呼死你、改号软件等相似的攻击工具
+	第28条 禁止发帖或者回复中添加干扰帖子阅读的内容，如各种异常代码和在帖子中添加不可见声音等！
+	第29条 禁止私服服务端等相关工具
+</pre>
+						<div class="btn">
+							<img src="../../img/thread/fastreply.gif" style="vertical-align:text-top;">
+							<a class="noline" id="btn" onmouseover="amousein(id)" onmouseout="amouseout(id)" href=""><span>回复</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="zaixiantongji">
+			<span>在线会员 - 总计 41738 人在线 - 4173 会员,37565 位游客- 最高记录是 113480 于 2018-11-11</span>
+		</div>
+		<div id="mianze">
+			<p class="noma2">免责声明：</p>
+			<p class="noma2">本论坛所发布的一切教程及软件的解密分析文章仅限用于学习和研究目的；不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负。本站信息来自网络，版权争议与本站无关。您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。如果您喜欢该程序，请支持正版软件，购买注册，得到更好的正版服务。如有侵权请邮件与我们联系处理。</p>
+		</div>
+		<div class="line"></div>
+		<div class="design">
+			<div style="float: left; margin-left: 30%;">Designed By kzow</div>
+			<div style="float: right; margin-right: 30%;">GMT+8, <span id="timeee"></span></div>
+		</div>
+	</div>
+	
+</body>
+</html>
