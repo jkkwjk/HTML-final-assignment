@@ -17,7 +17,7 @@ function post(label){
 }
 function huifa(url,text)
 {
-	document.cookie=text;
+	document.cookie=text+"; path=/";
 	window.open(url);
 }
 function load()
