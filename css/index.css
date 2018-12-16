@@ -35,16 +35,7 @@
 	background-repeat:no-repeat;
 	height: 135px;
 	overflow: hidden;
-	text-overflow:ellipsis;/*超出部分文字以...显示*/
 	white-space:nowrap;/*不换行显示*/
-}
-nobr
-{
-	border:0px solid #cdcdcd;
-	border-bottom-width: 1px;
-	padding-top:4px;
-	margin:0px;
-	font-size: 13px;
 }
 p.noma
 {
@@ -53,6 +44,8 @@ p.noma
 	padding-top:4px;
 	margin:0px;
 	font-size: 13px;
+	overflow: hidden;
+	text-overflow:ellipsis;
 }
 a.black
 {
