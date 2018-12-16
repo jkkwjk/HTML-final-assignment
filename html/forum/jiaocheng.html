@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="../../css/default.css">
 	<link rel="stylesheet" type="text/css" href="../../css/forum.css">
 	<script type="text/javascript" charset="utf-8" src="../../js/default.js"></script>
+	<script type="text/javascript" charset="utf-8" src="../../js/huifa.js"></script>
 	<title>编程交流论坛 -- 人人都能学编程</title>
 	
 </head>
@@ -73,13 +74,13 @@
 			<div class="qutop" style=" float: right;width: 190px; margin-left: 0px;">
 				<img src="../../img/head/ico04.png" style="margin-top:20px;">
 				<div class="quright">
-					<p style="margin-top:5px;margin-bottom:8px;"><a href="{}">论坛使用帮助</a></p>
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="../thread/bangzhu.html" target="_blank">论坛使用帮助</a></p>
 				</div>
 			</div>
 			<div class="qutop" style=" float: right;width: 160px;">
 				<img src="../../img/head/ico01.png" style="margin-top:20px;">
 				<div class="quright" style="width: 100px;">
-					<p style="margin-top:5px;margin-bottom:8px;"><a href="{}">站内公告</a></p>
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="../thread/gonggao.html" target="_blank">站内公告</a></p>
 				</div>
 			</div>
 		</div>
@@ -133,7 +134,7 @@
 			</div><!-- 按钮阴影效果 -->
 			<div style="float: left; position: absolute; ">
 				<div class="fatie">
-					<a href="" class="noline">
+					<a href="" class="noline"onclick="huifa('../tousu/fatie.html','教程分享区');return false;">
 						<div class="fatiezi">发帖</div>
 					</a>
 				</div>
@@ -157,14 +158,13 @@
 					</span>
 				</div>
 			</div>
-			<!-- 一条帖子 -->
 			<div class="line" style="margin-top: 2px;"></div>
 			<div class="tiezineirong" id="a" onmouseover="mousein(id)" onmouseout="mouseout(id)">
 				<span><img src="../../img/forum/pin_1.gif"style="vertical-align:text-top;"></span>
-				<span class="biaoti"><a href="" class="noline" style="color: red;">论坛公告【20181221_New】一定要看!!!!</a></span>
+				<span class="biaoti"><a href="../thread/gonggao.html" class="noline" style="color: red;" target="_blank">论坛公告【20181221_New】一定要看!!!!</a></span>
 				
 				<div class="hiddenout" style="margin-right: 10px;width: 70px;float: right;">
-					<a class="noline yonghuming" style="color: red;"href="">admin</a>
+					<a class="noline yonghuming" style="color: red;">admin</a>
 					<img src="../../img/forum/common_2_verify_icon.gif">
 				</div>
 				<div class="hiddenout" style="margin-right:20px;width: 80px;float: right;font-size: 15px;">
@@ -173,7 +173,7 @@
 					<span class="sizeofck" style="color: gray;">1342</span>
 				</div>
 				<div class="hiddenout" style="margin-right: 155px;width: 80px;float: right;">
-					<a class="noline yonghuming" style="color: red;"href="">admin</a>
+					<a class="noline yonghuming" style="color: red;">admin</a>
 					<img src="../../img/forum/common_2_verify_icon.gif">
 				</div>
 				
@@ -181,9 +181,9 @@
 			<div class="line" style="margin-top: 2px;"></div>
 			<div class="tiezineirong"id="b" onmouseover="mousein(id)" onmouseout="mouseout(id)">
 				<span><img src="../../img/forum/pin_2.gif"style="vertical-align:text-top;"></span>
-				<span class="biaoti"><a href="" class="noline">开放注册新手报到专用贴，禁止再次开贴报到！</a></span>
+				<span class="biaoti"><a href="../thread/bangzhu.html" class="noline" target="_blank">论坛使用帮助【不懂的可以进来看看了】</a></span>
 				<div class="hiddenout" style="margin-right: 10px;width: 70px;float: right;">
-					<a class="noline2 yonghuming" href="">wayee0</a>
+					<a class="noline2 yonghuming">wayee0</a>
 				</div><!-- 最后发表 -->
 				<div class="hiddenout" style="margin-right:20px;width: 80px;float: right;font-size: 15px;">
 					<span class="sizeofck" style="color: #336699">342</span>
@@ -191,24 +191,7 @@
 					<span class="sizeofck" style="color: gray;">1W</span>
 				</div>
 				<div class="hiddenout" style="margin-right: 155px;width: 80px;float: right;">
-					<a class="noline yonghuming" style="color: red;"href="">admin</a>
-					<img src="../../img/forum/common_2_verify_icon.gif">
-				</div><!-- 发帖人 -->
-			</div>
-			<div class="line" style="margin-top: 2px;"></div>
-			<div class="tiezineirong"id="c" onmouseover="mousein(id)" onmouseout="mouseout(id)">
-				<span><img src="../../img/forum/agree.gif"style="vertical-align:text-top;"></span>
-				<span class="biaoti"><a href="" class="noline" style="color: black;">【推荐】原创精品图文教程</a></span>
-				<div class="hiddenout" style="margin-right: 10px;width: 70px;float: right;">
-					<a class="noline2 yonghuming" href="">xuanice</a>
-				</div><!-- 最后发表 -->
-				<div class="hiddenout" style="margin-right:0px;width: 100px;float: right;font-size: 15px;">
-					<span class="sizeofck" style="color: #336699">2523</span>
-					<span class="sizeofck" style="color: black;">/</span>
-					<span class="sizeofck" style="color: gray;">1.3W</span>
-				</div>
-				<div class="hiddenout" style="margin-right: 155px;width: 80px;float: right;">
-					<a class="noline yonghuming" style="color: red;"href="">admin</a>
+					<a class="noline yonghuming" style="color: red;">admin</a>
 					<img src="../../img/forum/common_2_verify_icon.gif">
 				</div><!-- 发帖人 -->
 			</div>
@@ -221,9 +204,9 @@
 			<div class="line" style="margin-top: 2px;"></div>
 			<div class="tiezineirong"id="d" onmouseover="mousein(id)" onmouseout="mouseout(id)">
 				<span><img src="../../img/forum/folder_new.gif"style="vertical-align:text-top;"></span>
-				<span class="biaoti"><a href="" class="noline2">郝斌C语言视频及题目</a></span>
+				<span class="biaoti"><a href="../thread/hebinc.html" class="noline2" target="_blank">郝斌C语言视频及题目</a></span>
 				<div class="hiddenout" style="margin-right: 10px;width: 70px;float: right;">
-					<a class="noline2 yonghuming" href="">tiger9951</a>
+					<a class="noline2 yonghuming">tiger9951</a>
 				</div><!-- 最后发表 -->
 				<div class="hiddenout" style="margin-right:0px;width: 100px;float: right;font-size: 15px;">
 					<span class="sizeofck" style="color: #336699">2</span>
@@ -231,16 +214,15 @@
 					<span class="sizeofck" style="color: gray;">15</span>
 				</div>
 				<div class="hiddenout" style="margin-right: 155px;width: 80px;float: right;">
-					<a class="noline2 yonghuming" href="">尾叶</a>
+					<a class="noline2 yonghuming">尾叶</a>
 				</div><!-- 发帖人 -->
 			</div>
 			<div class="line"></div>
-			
 			<div class="tiezineirong"id="e" onmouseover="mousein(id)" onmouseout="mouseout(id)">
 				<span><img src="../../img/forum/folder_new.gif"style="vertical-align:text-top;"></span>
-				<span class="biaoti"><a href="" class="noline2">分享---C语言及教程</a></span>
+				<span class="biaoti"><a href="../thread/cjiaocheng.html" class="noline2" target="_blank">分享---C语言及教程</a></span>
 				<div class="hiddenout" style="margin-right: 10px;width: 70px;float: right;">
-					<a class="noline2 yonghuming" href="">hxz303</a>
+					<a class="noline2 yonghuming">hxz303</a>
 				</div><!-- 最后发表 -->
 				<div class="hiddenout" style="margin-right:0px;width: 100px;float: right;font-size: 15px;">
 					<span class="sizeofck" style="color: #336699">1</span>
@@ -248,15 +230,15 @@
 					<span class="sizeofck" style="color: gray;">2</span>
 				</div>
 				<div class="hiddenout" style="margin-right: 155px;width: 80px;float: right;">
-					<a class="noline2 yonghuming" href="">hxz303</a>
+					<a class="noline2 yonghuming">hxz303</a>
 				</div><!-- 发帖人 -->
 			</div>
 			<div class="line"></div>
 			<div class="tiezineirong"id="f" onmouseover="mousein(id)" onmouseout="mouseout(id)">
-				<span><img src="../../img/forum/folder_common.gif"style="vertical-align:text-top;"></span>
-				<span class="biaoti"><a href="" class="noline2">年度Java资源分享</a></span>
+				<span><img src="../../img/forum/folder_new.gif"style="vertical-align:text-top;"></span>
+				<span class="biaoti"><a href="../thread/javaziyuan.html" class="noline2" target="_blank">年度Java资源分享</a></span>
 				<div class="hiddenout" style="margin-right: 10px;width: 70px;float: right;">
-					<a class="noline2 yonghuming" href="">gzd2768657</a>
+					<a class="noline2 yonghuming">gzd2768657</a>
 				</div><!-- 最后发表 -->
 				<div class="hiddenout" style="margin-right:0px;width: 100px;float: right;font-size: 15px;">
 					<span class="sizeofck" style="color: #336699">3</span>
@@ -264,15 +246,15 @@
 					<span class="sizeofck" style="color: gray;">65</span>
 				</div>
 				<div class="hiddenout" style="margin-right: 155px;width: 80px;float: right;">
-					<a class="noline2 yonghuming" href="">六月莫竹</a>
+					<a class="noline2 yonghuming">六月莫竹</a>
 				</div><!-- 发帖人 -->
 			</div>
 			<div class="line"></div>
 			<div class="tiezineirong"id="g" onmouseover="mousein(id)" onmouseout="mouseout(id)">
 				<span><img src="../../img/forum/folder_common.gif"style="vertical-align:text-top;"></span>
-				<span class="biaoti"><a href="" class="noline2"> python爬虫，抢小米抢购，</a></span>
+				<span class="biaoti"><a href="../thread/pyxiaomi.html" class="noline2" target="_blank"> python爬虫，抢小米抢购，</a></span>
 				<div class="hiddenout" style="margin-right: 10px;width: 70px;float: right;">
-					<a class="noline2 yonghuming" href="">dupeng0720</a>
+					<a class="noline2 yonghuming">dupeng0720</a>
 				</div><!-- 最后发表 -->
 				<div class="hiddenout" style="margin-right:0px;width: 100px;float: right;font-size: 15px;">
 					<span class="sizeofck" style="color: #336699">2</span>
@@ -280,23 +262,23 @@
 					<span class="sizeofck" style="color: gray;">15</span>
 				</div>
 				<div class="hiddenout" style="margin-right: 155px;width: 80px;float: right;">
-					<a class="noline2 yonghuming" href="">wayee0</a>
+					<a class="noline2 yonghuming">kzow1</a>
 				</div><!-- 发帖人 -->
 			</div>
 			<div class="line"></div>
 			<div class="tiezineirong"id="h" onmouseover="mousein(id)" onmouseout="mouseout(id)">
 				<span><img src="../../img/forum/folder_common.gif"style="vertical-align:text-top;"></span>
-				<span class="biaoti"><a href="" class="noline2">简易绕过ObRegisterCallbacks对句柄权限的限制[BE|EAC]</a></span>
+				<span class="biaoti"><a href="../thread/neihe.html" class="noline2" target="_blank">简易绕过ObRegisterCallbacks对句柄权限的限制[BE|EAC]</a></span>
 				<div class="hiddenout" style="margin-right: 10px;width: 70px;float: right;">
-					<a class="noline2 yonghuming" href="">hxz303</a>
+					<a class="noline2 yonghuming">hxz303</a>
 				</div><!-- 最后发表 -->
 				<div class="hiddenout" style="margin-right:0px;width: 100px;float: right;font-size: 15px;">
 					<span class="sizeofck" style="color: #336699">1</span>
 					<span class="sizeofck" style="color: black;">/</span>
-					<span class="sizeofck" style="color: gray;">2</span>
+					<span class="sizeofck" style="color: gray;">1</span>
 				</div>
 				<div class="hiddenout" style="margin-right: 155px;width: 80px;float: right;">
-					<a class="noline2 yonghuming" href="">hxz303</a>
+					<a class="noline2 yonghuming">hxz303</a>
 				</div><!-- 发帖人 -->
 			</div>
 			<div class="line"></div>
@@ -307,7 +289,7 @@
 			</div><!-- 按钮阴影效果 -->
 			<div style="float: right; position: absolute; ">
 				<div class="fatie">
-					<a href="" class="noline">
+					<a href="" class="noline" onclick="huifa('../tousu/fatie.html','教程分享区');return false;">
 						<div class="fatiezi">发帖</div>
 					</a>
 				</div>

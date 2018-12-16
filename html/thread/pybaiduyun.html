@@ -3,11 +3,14 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="../../css/default.css">
+	<link rel="stylesheet" type="text/css" href="../../css/thread.css">
 	<script type="text/javascript" charset="utf-8" src="../../js/default.js"></script>
+	<script type="text/javascript" charset="utf-8" src="../../js/thread.js"></script>
+	<script type="text/javascript" charset="utf-8" src="../../js/huifa.js"></script>
 	<title>编程交流论坛 -- 人人都能学编程</title>
 	
 </head>
-<body class="container" style="background: url(../../img/head/bgimg.jpg) no-repeat 50% 0;" onload="getTime();">
+<body class="container" style="background: url(../../img/head/bgimg.jpg) no-repeat 50% 0;" onload="getTime();sizeChange();" onresize="sizeChange();">
 	<div id="head" >
 		<a href="https://weibo.com" target="_blank" title="新浪微博" style="color: black" id="head_a" onmouseover="amousein(id);"onmouseout="amouseout(id);">官方微博</a>
 		<a href="https://www.icourse163.org/" target="_blank" style="color: red" id="head_b" onmouseover="amousein(id);"onmouseout="amouseout(id);">编程视频教程</a>
@@ -72,19 +75,81 @@
 			<div class="qutop" style=" float: right;width: 190px; margin-left: 0px;">
 				<img src="../../img/head/ico04.png" style="margin-top:20px;">
 				<div class="quright">
-					<p style="margin-top:5px;margin-bottom:8px;"><a href="{}">论坛使用帮助</a></p>
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="bangzhu.html"target="_blank">论坛使用帮助</a></p>
 				</div>
 			</div>
 			<div class="qutop" style=" float: right;width: 160px;">
 				<img src="../../img/head/ico01.png" style="margin-top:20px;">
 				<div class="quright" style="width: 100px;">
-					<p style="margin-top:5px;margin-bottom:8px;"><a href="{}">站内公告</a></p>
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="gonggao.html"  target="_blank">站内公告</a></p>
 				</div>
 			</div>
 		</div>
+		<div class="con">
+			<div class="con2">
+				<div class="conhead">
+					<div class="headl">
+						<span style="color: #999999;font-size: 13px;margin-left: 20%;">回复:</span>
+						<span style="color: #e06666;font-size: 13px;">1</span>
+						<span style="color: #999999;font-size: 13px;margin-left: 5%;">查看:</span>
+						<span style="color: #e06666;font-size: 13px;">8</span>
+					</div>
+					<div style="background-color: white;width: 100%;height: 30px;">
+						<div class="headr">
+							<a class="noline" href="" id="a_title" onmouseover="amousein(id);" onmouseout="amouseout(id);"style="margin-left:50px;font-weight: 600; color: black;"><span>python 批量更改百度云下载的那些推广地址</span></a>
+						</div>
+						<span style="float: right;color: red;font-size: 13px;margin-right: 90px;line-height: 30px;">楼主</span>
+					</div>
+				</div>
+				<div class="conuser">
+					<div class="userinfo2">
+						<span class="username2"><a class="noline" id="name" onmouseover="amousein(id);" onmouseout="amouseout(id);" href="../user/1004456/user.html" target="_blank">回梦游仙</a></span>
+					</div>
+					<div style="width: 100%;height: 30px;border-bottom: 1px dashed #9fc5f8;margin-right: 10px;">
+						<div class="threadinfo">
+							<div style="margin-left: 20px;">
+								<img src="../../img/thread/online_member.gif">
+								<span style="margin-left: 5px;font-size: 13px;">发表于:  2018-12-16 15:57:47</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div style="margin-top: 1.4px;"></div><!-- 莫名的bug -->
+				<div style="position: relative;min-height: 370px;">
+					<div class="maininfol">
+						<div id="imginfo2">
+							<a class="noline"target="_blank"><img src="../user/1004456/avatar.jpg" width="100px"></a>
+						</div>
+						<p class="noma2 fontresize" style="margin-left: 50px;margin-top: 10px;">潜水</p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 5px;">UID<span style="float: right;margin-right: 40px;">1004456</span></p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 10px;color: red;">威望<span style="float: right;margin-right: 40px;color: black">34点</span></p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 10px;">热心<span style="float: right;margin-right: 40px;">153点</span></p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 10px;color: #999999;">违规<span style="float: right;margin-right: 40px;color: black;">0次</span></p>
+						<div style="margin-left: 40px;margin-top: 20px;">
+							<img src="../../img/thread/9.gif" style="margin-left: 5px;">
+						</div>
+					</div>
+					<div class="maininfor">
+<pre>
+在论坛上看到koa2 的视频 发现 都是什么自学资源论坛上的推广地址，文件夹里有几十个视频 一个个改 确实够呛。 把 论坛上 学习的Python 派上用场了  虽然很简单的代码  更加说明 Python真的很强大~~~~
+
+import os
+path=input('请输入文件路径(结尾加上/)：')
+replaceString=input('请输入文件路径(结尾加上/)：')              
+f = os.listdir(path)
+for oldName in f:
+    newName = oldName.replace(replaceString,'')
+    os.rename(oldName,newName)
+</pre>
+						<div class="btn">
+							<img src="../../img/thread/fastreply.gif" style="vertical-align:text-top;">
+							<a class="noline" id="btn" onmouseover="amousein(id)" onmouseout="amouseout(id)" href="javascript:return false;" onclick="huifa('../tousu/huifu.html','楼主')"><span>回复</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
 		
-
-
 		<div id="zaixiantongji">
 			<span>在线会员 - 总计 41738 人在线 - 4173 会员,37565 位游客- 最高记录是 113480 于 2018-11-11</span>
 		</div>

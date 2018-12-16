@@ -3,17 +3,20 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="../../css/default.css">
+	<link rel="stylesheet" type="text/css" href="../../css/thread.css">
 	<script type="text/javascript" charset="utf-8" src="../../js/default.js"></script>
+	<script type="text/javascript" charset="utf-8" src="../../js/thread.js"></script>
+	<script type="text/javascript" charset="utf-8" src="../../js/huifa.js"></script>
 	<title>编程交流论坛 -- 人人都能学编程</title>
 	
 </head>
-<body class="container" style="background: url(../../img/head/bgimg.jpg) no-repeat 50% 0;" onload="getTime();">
+<body class="container" style="background: url(../../img/head/bgimg.jpg) no-repeat 50% 0;" onload="getTime();sizeChange();" onresize="sizeChange();">
 	<div id="head" >
 		<a href="https://weibo.com" target="_blank" title="新浪微博" style="color: black" id="head_a" onmouseover="amousein(id);"onmouseout="amouseout(id);">官方微博</a>
 		<a href="https://www.icourse163.org/" target="_blank" style="color: red" id="head_b" onmouseover="amousein(id);"onmouseout="amouseout(id);">编程视频教程</a>
 		<div style="float: right;">
-			<a href="q.html" target="_blank" style="color: blue" id="head_c" onmouseover="amousein(id);"onmouseout="amouseout(id);">向我们提问</a>
-			<a href=""style="color: blue" id="head_d" onmouseover="amousein(id);"onmouseout="amouseout(id);">给我们建议</a>
+			<a href="../tousu/q.html" target="_blank" style="color: blue" id="head_c" onmouseover="amousein(id);"onmouseout="amouseout(id);">向我们提问</a>
+			<a href="../tousu/advise.html" target="_blank" style="color: blue" id="head_d" onmouseover="amousein(id);"onmouseout="amouseout(id);">给我们建议</a>
 		</div>
 	</div>
 	<div id="mainbody">
@@ -72,39 +75,78 @@
 			<div class="qutop" style=" float: right;width: 190px; margin-left: 0px;">
 				<img src="../../img/head/ico04.png" style="margin-top:20px;">
 				<div class="quright">
-					<p style="margin-top:5px;margin-bottom:8px;"><a href="../thread/bangzhu.html" target="_blank">论坛使用帮助</a></p>
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="bangzhu.html"target="_blank">论坛使用帮助</a></p>
 				</div>
 			</div>
 			<div class="qutop" style=" float: right;width: 160px;">
 				<img src="../../img/head/ico01.png" style="margin-top:20px;">
 				<div class="quright" style="width: 100px;">
-					<p style="margin-top:5px;margin-bottom:8px;"><a href="../thread/gonggao.html" target="_blank">站内公告</a></p>
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="gonggao.html"  target="_blank">站内公告</a></p>
 				</div>
 			</div>
 		</div>
-		<div style="height: 60px;padding-left: 38%;margin-top: 10px;">
-			<div style="float: left;">
-				<img src="advice.jpg" width="60px;">
-			</div>
-			<div style="font-size: 30px;font-weight: 700;margin-left: 30px;float: left;margin-top: 4px;">你有什么建议吗?</div>
-		</div>
-		<div style="margin-left: 10%;">
-			<textarea id="text"type="text" name="" style="width: 90%;height: 270px;resize: none;"></textarea>
-		</div>
-		<div style="height: 36px;padding-left: 80%; margin-top: 5px;"><!-- 间隔 -->
-			<div style="float: left; position: absolute;margin-top: 3px;margin-left: 3px;">
-				<div class="fatie" style="background-color: black;"></div>
-			</div><!-- 按钮阴影效果 -->
-			<div style="float: left; position: absolute; ">
-				<div class="fatie">
-					<a href="javascript:return false;" class="noline" onclick="alert('我们已经收到你的建议!`﹀`γ');window.open('','_self').close();">
-						<div class="fatiezi">告诉我们</div>
-					</a>
+		<div class="con">
+			<div class="con2">
+				<div class="conhead">
+					<div class="headl">
+						<span style="color: #999999;font-size: 13px;margin-left: 20%;">回复:</span>
+						<span style="color: #e06666;font-size: 13px;">1</span>
+						<span style="color: #999999;font-size: 13px;margin-left: 5%;">查看:</span>
+						<span style="color: #e06666;font-size: 13px;">1</span>
+					</div>
+					<div style="background-color: white;width: 100%;height: 30px;">
+						<div class="headr">
+							<a class="noline" href="" id="a_title" onmouseover="amousein(id);" onmouseout="amouseout(id);"style="margin-left:50px;font-weight: 600; color: black;"><span>吐槽门户网站的错别字，现在小编水平差到这种地步？？</span></a>
+						</div>
+						<span style="float: right;color: red;font-size: 13px;margin-right: 90px;line-height: 30px;">楼主</span>
+					</div>
+				</div>
+				<div class="conuser">
+					<div class="userinfo2">
+						<span class="username2"><a class="noline" id="name" onmouseover="amousein(id);" onmouseout="amouseout(id);" href="../user/1005524/user.html" target="_blank">tiger9951</a></span>
+					</div>
+					<div style="width: 100%;height: 30px;border-bottom: 1px dashed #9fc5f8;margin-right: 10px;">
+						<div class="threadinfo">
+							<div style="margin-left: 20px;">
+								<img src="../../img/thread/online_member.gif">
+								<span style="margin-left: 5px;font-size: 13px;">发表于:  2018-12-15 22:20:17</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div style="margin-top: 1.4px;"></div><!-- 莫名的bug -->
+				<div style="position: relative;min-height: 370px;">
+					<div class="maininfol">
+						<div id="imginfo2">
+							<a class="noline"target="_blank"><img src="../user/1005524/avatar.jpg" width="100px"></a>
+						</div>
+						<p class="noma2 fontresize" style="margin-left: 50px;margin-top: 10px;">老司机</p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 5px;">UID<span style="float: right;margin-right: 40px;">1005524</span></p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 10px;color: red;">威望<span style="float: right;margin-right: 40px;color: black">34点</span></p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 10px;">热心<span style="float: right;margin-right: 40px;">234点</span></p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 10px;color: #999999;">违规<span style="float: right;margin-right: 40px;color: black;">0次</span></p>
+						<div style="margin-left: 40px;margin-top: 20px;">
+							<img src="../../img/thread/7.gif" style="margin-left: 5px;">
+							<img src="../../img/thread/cf.gif" style="margin-left: 5px;">
+						</div>
+					</div>
+					<div class="maininfor">
+<pre>
+<img src="../../img/threadL/cuobiezi/0.png" width="50%">
+
+
+<img src="../../img/threadL/cuobiezi/1.png" width="50%">
+</pre>
+						<div class="btn">
+							<img src="../../img/thread/fastreply.gif" style="vertical-align:text-top;">
+							<a class="noline" id="btn" onmouseover="amousein(id)" onmouseout="amouseout(id)" href="javascript:return false;" onclick="huifa('../tousu/huifu.html','楼主')"><span>回复</span></a>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
+			
 		
-		<div id="zaixiantongji" style="margin-top: 10px;">
+		<div id="zaixiantongji">
 			<span>在线会员 - 总计 41738 人在线 - 4173 会员,37565 位游客- 最高记录是 113480 于 2018-11-11</span>
 		</div>
 		<div id="mianze">

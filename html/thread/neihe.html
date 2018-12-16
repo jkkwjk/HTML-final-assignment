@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html class="container">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../../css/default.css">
+	<link rel="stylesheet" type="text/css" href="../../css/thread.css">
+	<script type="text/javascript" charset="utf-8" src="../../js/default.js"></script>
+	<script type="text/javascript" charset="utf-8" src="../../js/thread.js"></script>
+	<script type="text/javascript" charset="utf-8" src="../../js/huifa.js"></script>
+	<title>编程交流论坛 -- 人人都能学编程</title>
+	
+</head>
+<body class="container" style="background: url(../../img/head/bgimg.jpg) no-repeat 50% 0;" onload="getTime();sizeChange();" onresize="sizeChange();">
+	<div id="head" >
+		<a href="https://weibo.com" target="_blank" title="新浪微博" style="color: black" id="head_a" onmouseover="amousein(id);"onmouseout="amouseout(id);">官方微博</a>
+		<a href="https://www.icourse163.org/" target="_blank" style="color: red" id="head_b" onmouseover="amousein(id);"onmouseout="amouseout(id);">编程视频教程</a>
+		<div style="float: right;">
+			<a href="../tousu/q.html" target="_blank" style="color: blue" id="head_c" onmouseover="amousein(id);"onmouseout="amouseout(id);">向我们提问</a>
+			<a href="../tousu/advise.html" target="_blank" style="color: blue" id="head_d" onmouseover="amousein(id);"onmouseout="amouseout(id);">给我们建议</a>
+		</div>
+	</div>
+	<div id="mainbody">
+		<div style="height: 120px;min-width: 1000px;">
+			<div id="logo">
+				<a href="../../index.html"><img src="../../img/head/logo.png" width="130px"></a>
+			</div>
+			<div id="imginfo">
+				<a class="noline" href="" target="_blank" onclick="my();return false;"><img src="../../img/head/people.gif"></a>
+			</div>
+			<div id="info">
+				<p>
+					<img src="../../img/head/user_online.gif">
+					<a class="noline" id="username" href="" target="_blank" onmouseover="amousein(id);"onmouseout="amouseout(id);" onclick="my();return false;">kzow1</a> 
+					<span class="pipe">|</span>
+					<a href="" onclick="qqlogin();return false;"><img src="../../img/head/qq.gif" style="vertical-align:text-top;"></a>
+					<!-- 图片上下居中 -->
+					<span class="pipe">|</span>
+					<a class="noline" href="{}"target="_blank" id="head_e" onmouseover="amousein(id);"onmouseout="amouseout(id);" onclick="my();return false;">我的</a> 
+					<span class="pipe">|</span>
+					<a class="noline" href="{}"target="_blank" id="head_f" onmouseover="amousein(id);"onmouseout="amouseout(id);" onclick="my();return false;">提醒</a> 
+					<span class="pipe">|</span>
+					<a class="noline" id="login" href="{}" onclick="outlogin();return false;"onmouseover="amousein(id);"onmouseout="amouseout(id);">退出</a> 
+					<span class="pipe">|</span>
+				</p>
+
+				<p id="yonghuzu">
+					用户组:新人上路&nbsp;&nbsp;&nbsp;&nbsp;
+				</p>
+			</div>
+			
+		</div>
+		<div id="qu" >
+			<div class="qutop" style=" float: left;width: 250px;">
+				<img src="../../img/head/ico02.png" style="margin-top:20px;">
+				<div class="quleft">
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="../forum/yuanchuang.html">原创发布区</a></p>
+					<a href="../forum/ruanjian.html">精品软件区</a>
+				</div>
+				<div class="quleft">
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="../forum/guanshui.html">灌水交流区</a></p>
+					<a href="../forum/jiaocheng.html">教程分享区</a>
+				</div>
+			</div>
+			<div class="qutop" style="margin-left: 10px; float: left;">
+				<img src="../../img/head/ico03.png" style="margin-top:20px;">
+				<div class="quleft"  style="width: 100px;">
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="../forum/c.html">C语言交流区</a></p>
+					<a href="../forum/java.html">JAVA交流区</a>
+				</div>
+				<div class="quleft" style="width: 116px;">
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="../forum/c++.html">C++交流区</a></p>
+					<a href="../forum/py.html">Python交流区</a>
+				</div>
+			</div>
+			<div class="qutop" style=" float: right;width: 190px; margin-left: 0px;">
+				<img src="../../img/head/ico04.png" style="margin-top:20px;">
+				<div class="quright">
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="bangzhu.html"target="_blank">论坛使用帮助</a></p>
+				</div>
+			</div>
+			<div class="qutop" style=" float: right;width: 160px;">
+				<img src="../../img/head/ico01.png" style="margin-top:20px;">
+				<div class="quright" style="width: 100px;">
+					<p style="margin-top:5px;margin-bottom:8px;"><a href="gonggao.html"  target="_blank">站内公告</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="con">
+			<div class="con2">
+				<div class="conhead">
+					<div class="headl">
+						<span style="color: #999999;font-size: 13px;margin-left: 20%;">回复:</span>
+						<span style="color: #e06666;font-size: 13px;">1</span>
+						<span style="color: #999999;font-size: 13px;margin-left: 5%;">查看:</span>
+						<span style="color: #e06666;font-size: 13px;">1</span>
+					</div>
+					<div style="background-color: white;width: 100%;height: 30px;">
+						<div class="headr">
+							<a class="noline" href="" id="a_title" onmouseover="amousein(id);" onmouseout="amouseout(id);"style="margin-left:50px;font-weight: 600; color: black;"><span>简易绕过ObRegisterCallbacks对句柄权限的限制[BE|EAC]</span></a>
+						</div>
+						<span style="float: right;color: red;font-size: 13px;margin-right: 90px;line-height: 30px;">楼主</span>
+					</div>
+				</div>
+				<div class="conuser">
+					<div class="userinfo2">
+						<span class="username2"><a class="noline" id="name" onmouseover="amousein(id);" onmouseout="amouseout(id);" href="../user/1023909/user.html" target="_blank">hxz303</a></span>
+					</div>
+					<div style="width: 100%;height: 30px;border-bottom: 1px dashed #9fc5f8;margin-right: 10px;">
+						<div class="threadinfo">
+							<div style="margin-left: 20px;">
+								<img src="../../img/thread/online_member.gif">
+								<span style="margin-left: 5px;font-size: 13px;">发表于:  2018-12-15 14:54:56</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div style="margin-top: 1.4px;"></div><!-- 莫名的bug -->
+				<div style="position: relative;min-height: 370px;">
+					<div class="maininfol">
+						<div id="imginfo2">
+							<a class="noline"target="_blank"><img src="../user/1023909/avatar.jpg" width="100px"></a>
+						</div>
+						<p class="noma2 fontresize" style="margin-left: 50px;margin-top: 10px;">潜水</p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 5px;">UID<span style="float: right;margin-right: 40px;">1023909</span></p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 10px;color: red;">威望<span style="float: right;margin-right: 40px;color: black">24点</span></p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 10px;">热心<span style="float: right;margin-right: 40px;">134点</span></p>
+						<p class="noma2 fontresize" style="margin-left: 33px;margin-top: 10px;color: #999999;">违规<span style="float: right;margin-right: 40px;color: black;">0次</span></p>
+						<div style="margin-left: 40px;margin-top: 20px;">
+							<img src="../../img/thread/bkqs.gif" style="margin-left: 5px;">
+							<img src="../../img/thread/cf.gif" style="margin-left: 5px;">
+						</div>
+					</div>
+					<div class="maininfor">
+<pre>
+长话短说,我看到国内某些人把这种最简单的技术拿去"卖"而且卖到几千元一个月的时候我觉得是时候必要的献丑一下了.
+这技术本来就不难,我之前的av killer(其实是handlemaster)其实也是这个这个.让我慢慢来讲解一下:
+0x1 背景:
+在Windows Vista之前的系统(包括WIN7 32) 正常商业软件(注意是正常商业软件)是可以进行SSDT HOOK的.
+什么是SSDT HOOK建议百度.
+然而在Windows Vista以及WIN 7 x64之后引入了一个叫做PG(PatchGuard)的系统
+虽然可以绕过,但是如果商业软件比如杀毒软件,反作弊软件这样做了,被举报了,微软会吊销他们的数字签名。所以SSDT HOOK可以说在这之后就 没软用了
+那么失去SSDT HOOK怎么能保护杀毒软件、反作弊的游戏进程呢？
+答案是ObRegisterCallbacks这个回调。杀毒软件/反作弊软件通常会在这个回调处理程序打开的句柄,把你的打开进程的句柄降级为最低级.这样你就无法对进程进行读写操作了.起到了"保护作用".
+0x2 handletable背景/思路:
+每个进程都有一个叫做进程句柄表（HANDLETABLE）的东西。这里面放着这个进程的全部句柄以及各种详细句柄信息.包括 句柄权限 所以既然我们不能直接remove掉ObRegisterCallbacks(会被反作弊发现)所以我们直接修改句柄表里的我们的句柄权限达到让"进程保护"失效的目的
+0x3 基本知识:
+在win7下 
+handletable是_EPROCESS + 0x200(windbg下看符号表名字为ObjectTable)
+<img src="../../img/threadL/neihe/0.png" width="50%">
+
+有人好奇为什么有几个0x000
+因为前几个是一个union结构.
+而那些就是我们的句柄
+而位于0x008的GrantedAccess,就是权限,也就是我们需要修改的东西
+我们只需要:
+1.遍历句柄,找到和用户传来要提权的句柄一样的句柄
+2.修改GrantedAccess为0x1FFFFF(最高权限)
+here we go:
+
+<img src="../../img/threadL/neihe/1.png" width="50%">
+
+这个方法是能解决掉所有的杀毒软件/反作弊软件包括所谓的BE EAC TP NP XXX的降权处理
+have fun
+如果你想私聊问我源码/怎么编译/怎么用.
+你需要配置一个WDK驱动开发环境 + vmware虚拟机调试环境
+剩下的百度 : )
+</pre>
+						<div class="btn">
+							<img src="../../img/thread/fastreply.gif" style="vertical-align:text-top;">
+							<a class="noline" id="btn" onmouseover="amousein(id)" onmouseout="amouseout(id)" href="javascript:return false;" onclick="huifa('../tousu/huifu.html','楼主')"><span>回复</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+		<div id="zaixiantongji">
+			<span>在线会员 - 总计 41738 人在线 - 4173 会员,37565 位游客- 最高记录是 113480 于 2018-11-11</span>
+		</div>
+		<div id="mianze">
+			<p class="noma2">免责声明：</p>
+			<p class="noma2">本论坛所发布的一切教程及软件的解密分析文章仅限用于学习和研究目的；不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负。本站信息来自网络，版权争议与本站无关。您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。如果您喜欢该程序，请支持正版软件，购买注册，得到更好的正版服务。如有侵权请邮件与我们联系处理。</p>
+		</div>
+		<div class="line"></div>
+		<div class="design">
+			<div style="float: left; margin-left: 30%;">Designed By kzow</div>
+			<div style="float: right; margin-right: 30%;">GMT+8, <span id="timeee"></span></div>
+		</div>
+	</div>
+	
+</body>
+</html>

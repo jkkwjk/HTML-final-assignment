@@ -43,7 +43,7 @@ a
 #head a
 {
 	font-weight: 1000;
-	text-decoration-line: none;
+	text-decoration: none;
 	font-size: 13px;
 	padding-left: 4px;
 	padding-right: 4px;
@@ -96,7 +96,7 @@ a
 }
 a.noline
 {
-	text-decoration-line: none;
+	text-decoration:none;
 }
 #qu
 {
